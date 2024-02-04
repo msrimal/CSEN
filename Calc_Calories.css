@@ -1,0 +1,38 @@
+/*
+Maya Srimal
+lab3task2
+This program calculates total calories and fat percentage
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightsalmon;
+    margin: 0 auto;
+    width: 600px;
+    /*border: 3px solid blue;*/
+    padding: 0 2em 1em;
+}
+
+h1 {
+    color: hotpink;
+}
+
+div {
+    margin-bottom: 1em;
+    color: snow;
+    transition-duration: 1s;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+	text-align: right;
+}
+p {
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+}
+div:hover{
+    opacity: 10%;
+    
+}

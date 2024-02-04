@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maya's Café</title>
+        <link href="simplestorestyles.css" rel="stylesheet">
+        <script src="store.js" defer>
+        </script>
+    </head>
+    <body>
+        <h2>Maya's Café</h2>
+        <div id="menu1"></div>
+        <!--
+            <table>
+                <caption>MENU:</caption>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+                 <tr>
+                     <td>Croissant</td>
+                     <td>10.00</td>
+                </tr>
+                <tr>
+                    <td>Cheese Croissant</td>
+                    <td>11.99</td>
+                </tr>
+                <tr>
+                    <td>Strawberry Danish</td>
+                    <td>11.00</td>
+                </tr>
+                <tr>
+                    <td>Coffee</td>
+                    <td>10.00</td>
+                </tr>
+                <tr>
+                    <td>Baguette</td>
+                    <td>12.00</td>
+                </tr>
+        </table>
+       -->
+        <form>
+        <label for="item">Item</label>
+        <input type="text" id="item" name="item"><br>
+        <label for="qty">Qty</label>
+        <input type="text" id="qty" name="qty">
+        </form>
+        <br>
+        <button type="button" onclick="addItem()">Add Item</button>
+        <button type="button" onclick="clearData()">New Order</button>
+        
+        <div id= "invoiceTotal">Invoice Total $</div>
+        <textarea id="receipt" name="receipt" rows="6" cols="50"></textarea>
+    
+    </body>
+</html>

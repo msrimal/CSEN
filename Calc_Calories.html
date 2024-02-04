@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+Maya Srimal
+lab3task2
+This program calculates total calories and fat percentage
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="Calc_Calories.css">
+</head>
+<body>
+    <main>
+        <h1>Calorie Calculator</h1>
+        <div>
+            <label for="fGrams">Fat Grams:</label>
+            <input type="text" id="fGrams">
+        </div>
+        <div>
+            <label for="cGrams">Carb Grams:</label>
+            <input type="text" id="cGrams">
+        </div>
+        <div>
+            <label for="pGrams">Protein Grams:</label>
+            <input type="text" id="pGrams">
+        </div>
+        <div>
+            <label for="tCal">Total Calories:</label>
+            <input type="text" id="tCal" disabled>
+        </div>
+        <div>
+            <label for="fPercentage">Fat Percentage:</label>
+            <input type="text" id="fPercentage" disabled>
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="button" id="calculate" value="Calculate">
+            <input type="button" id="clear" value="Clear">
+        </div>
+    </main>
+    <script src="jquery.js"></script> 
+    <script src="Calc_Calories.js"></script> 
+</body>
+
+</html>
