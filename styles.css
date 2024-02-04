@@ -1,37 +1,32 @@
-body {
-    background-color: lightgray;
-    white-space: normal;
-    font-size: 25pt;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
+/* Add your styles here */
+img {
+width: 300px;
 }
-#main{
-    /*border: 2px solid black; */
-    width: 500px;
-    padding: 10px;
-    margin: 10px;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+h1 {
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 5px;
+font-family: Arial;
+font-size: 24px;
+color: white;
+background-color: red;
 }
-label[for="feet"], label[for="inches"], label[for="weight"]{
-    font-size: 20pt;
+#author-name-and-date {
+font-family: Arial;
+font-size: 12px;
+color:lightgray; 
 }
-#feet, #inches, #weight{
-    font-size: 15pt;
+
+p,ol {
+font-family:Times New Roman;
+font-size: 16px;
+color: gray;
 }
-input{
-    font-size: 20 em;
-}
-#result{
-    font-size: 15pt;
-}
-button{
-    width: 100px;
-    font-size: 1 em;
-    background-color: white;
+
+a {
+font-family: Arial;
+font-size: 12px;
+color: blue;
 }

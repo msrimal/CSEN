@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>BMI Calculator</title>
+        <title>COEN 10 Lab 2</title>
         <link href="styles.css" rel="stylesheet">
-        <script src="calcBMI.js" defer></script>
+        <script src="adder.js" defer></script>
     </head>
     <body>
+<?php
+    $value = rand(0,12);
+
+?>
         <div id="main">
-        <h2>BMI Calculator</h2>
-        <label for="feet">Height(ft)</label>
-        <input id="feet" type="text" size="5"><br>
-        <label for="inches">Height(in)</label>
-        <input id="inches" type="text" size="5"><br>
-        <label for="weight">Weight(lbs)</label>
-        <input id="weight" type="text" size="5">
+        <h2>Multiplication Test</h2>
+        <input id="num1" type="text" size="5">
+            <h1>*</h1>
+        <input id="num2" type="text" size="5">
         <br>
-  
-        <button onclick="calcBMI()">BMI</button>
-        <button onclick="reset()">Clear</button>
-        <h4 id="result">BMI:</h4>
+        <button onclick="multiply()">=</button>
+        <button onclick="reset()">clear</button>
+        <h2 id="sum">0</h2>
         </div>
     </body>
 </html>
