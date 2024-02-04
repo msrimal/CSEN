@@ -1,0 +1,37 @@
+body {
+    background-color: lightgray;
+    white-space: normal;
+    font-size: 25pt;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+#main{
+    /*border: 2px solid black; */
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label[for="feet"], label[for="inches"], label[for="weight"]{
+    font-size: 20pt;
+}
+#feet, #inches, #weight{
+    font-size: 15pt;
+}
+input{
+    font-size: 20 em;
+}
+#result{
+    font-size: 15pt;
+}
+button{
+    width: 100px;
+    font-size: 1 em;
+    background-color: white;
+}
