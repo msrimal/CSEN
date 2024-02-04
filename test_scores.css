@@ -1,0 +1,16 @@
+ /*
+Maya Srimal
+Lab2Task 2
+This program calculates average test scores, highest score, and your grade.
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 600px;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+h1 {
+    color: blue;
+}

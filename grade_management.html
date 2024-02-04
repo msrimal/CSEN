@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+    Maya Srimal
+    lab4task2
+    This program determines the name and scores of students
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Maya Srimal</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Grade Management System</h1>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <span id="required">*</span>
+        </div>
+        <div> 
+            <label for="score">Score:</label>
+            <input type="text" id="score">
+            <span id="required2">*</span>
+        </div>
+    
+        <label>&nbsp;</label>
+	   <input type="button" id="add_student" value="Add Student" >
+        <input type="button" id="statistics" value="Class statistics" >
+        <input type="button" id="clear" value="Clear data">
+
+	   <table id="scores_table"></table>
+         <h2>Results</h2>
+        <div id="results"></div>
+    
+    </main>
+    <script src="test_scores.js"></script>
+</body>
+</html>
