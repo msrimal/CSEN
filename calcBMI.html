@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BMI Calculator</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="calcBMI.js" defer></script>
+    </head>
+    <body>
+        <div id="main">
+        <h2>BMI Calculator</h2>
+        <label for="feet">Height(ft)</label>
+        <input id="feet" type="text" size="5"><br>
+        <label for="inches">Height(in)</label>
+        <input id="inches" type="text" size="5"><br>
+        <label for="weight">Weight(lbs)</label>
+        <input id="weight" type="text" size="5">
+        <br>
+  
+        <button onclick="calcBMI()">BMI</button>
+        <button onclick="reset()">Clear</button>
+        <h4 id="result">BMI:</h4>
+        </div>
+    </body>
+</html>
